@@ -1,3 +1,6 @@
+create database if not exists redes_info;
+use redes_info;
+
 create table if not exists memoria(
 	id int not null primary key auto_increment,
     taxa double,
