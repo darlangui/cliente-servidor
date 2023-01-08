@@ -5,7 +5,7 @@ from pc_info import PCInfo
 
 pc = PCInfo()
 origin = ("127.0.0.1", 20001)
-buffer_size = 4096
+buffer_size = 10000
 udp = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 while True:
     pc_dict = {

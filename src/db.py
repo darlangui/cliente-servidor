@@ -7,7 +7,7 @@ class DB:
             host="localhost",
             user="root",
             passwd="",
-            database="redes"
+            database="redes_info"
         )
 
     def insert(self, data):
